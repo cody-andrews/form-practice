@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header id = 'headerText'>
+        Form Practice 
+    </header>
+
+    <form id="contact-form">
+        <div id="name-inputs">  
+            <label for="first-name">
+                <p id="form-name-label">Name*</p>
+                <Input id='first-name' type="text" placeholder="First Name" name="first-name" required></Input>
+                <p class="name-label">First Name</p>
+            </label>
+            
+            <label for="last-name">
+                <Input id='last-name' type="text" placeholder="Last Name" name="last-name" required></Input>
+                <p class="name-label">Last Name</p>
+            </label>
+        </div>
+    
+      
+        
+        <label for="email">
+            <p>Email Address*</p>
+            <Input id='email' type="text" placeholder="Email Address" name="email" required></Input>
+        </label>
+
+        <label for="suject">
+            <p>Subject*</p>
+            <Input id='subject' type="text" placeholder="Subject" name="subject" required></Input>
+        </label>
+
+        <label for="message">
+            <p>Message*</p>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+        </label>
+
+        <input class="submit-button" type="submit" value="Submit">
+
+    </form>
+   </div>
+
+</body>
+</html>

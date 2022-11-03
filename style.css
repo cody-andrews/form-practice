@@ -1,0 +1,62 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+body    {
+    background-color: #a2d2ff;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+#headerText {
+    font-size: 40px;
+    background-color: #ffc8dd;
+    color: #000000;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    text-align: center;
+    padding: 8px;
+}
+
+
+#first-name, #last-name  {
+    border: 1px solid black;
+    width: 90%;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+
+#email, #subject    {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid black;
+}
+
+#message  {
+    width: 90%;
+    height: 100px;
+    padding: 8px;
+    line-height: normal;
+    border: 1px solid black;
+}
+
+#contact-form   {
+    width: 30vw;
+    margin: 8px;
+}
+
+#name-inputs    {
+    display: inline;
+    justify-content: space-between;  
+    align-items: flex-end;  
+    width: 90%;
+    
+}
+
+.name-label {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
